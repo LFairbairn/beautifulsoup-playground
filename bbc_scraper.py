@@ -13,3 +13,6 @@ class BbcScraper:
     def main():
         bbc_scraper = BbcScraper()
         bbc_scraper.print_most_watched()
+
+if __name__ == "__main__":
+    BbcScraper.main()
