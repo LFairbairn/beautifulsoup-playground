@@ -15,4 +15,5 @@ class HTMLScraper:
     def find_all_by_class(self, content, value):
         return content.find_all(class_= value)
 
-       
+    def find_link_by_content(self, content):
+        return content.find('a')
